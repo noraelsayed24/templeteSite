@@ -1,0 +1,261 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.basics{
+    display: flex;
+    gap: 50px;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+header{
+    display: flex;
+    gap:80px;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:start;
+    background-color: #f44336;
+    padding: 110px  65px 0px 30px;
+    position: fixed;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+header span{
+    font-size:25px;
+    font-weight: 400px;
+}
+
+header ul{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+header li a{
+    text-decoration: none;
+    font-size:18px;
+    font-weight: 400px;
+    color: #FFFFFF;
+    display: block;
+    padding: 7px 8px 8px 16px ;
+    text-decoration: none;
+}
+header li a:hover{
+    color: #000000;
+    background-color: #FFFFFF;
+}
+.main{
+    margin: 90px 0px 0px 350px;
+}
+
+.main h1{
+    font-size: 64px;
+}
+.main h2{
+    font-size: 48px;
+    font-weight: 400px;
+    color: #f44336;
+    margin-top: 10px;
+    position: relative;
+    padding-bottom: 30px;
+}
+.main h2::after{
+    content: "";
+    position: absolute;
+    width: 57px;
+    height: 10px;
+    background-color: red;
+    bottom: 0px;
+    left: 0px;
+    border-radius:3px;
+    
+}
+p{
+    font-size: 16;
+    padding: 15px 0px 0px;
+}
+.cards{
+    display: flex;
+    /*👉justify-content: space-around;👈*/
+    align-items: start;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 36px  0px 60px 0px;
+    margin-right: 70px;
+    
+}
+img{
+    
+    height: 370px;
+    width: 450px;
+    position: relative;
+    
+}
+.im{
+    height: 370px;
+    width: 450px;
+    position: relative;
+
+}
+.opacity{
+    height: 370px;
+    width: 450px;
+    background-color: rgba(88, 74, 48, 0.61);
+    position: absolute;
+    top:0px;
+    z-index:5;
+}
+.opacity:hover{
+    opacity: 0.0;
+    cursor: pointer;
+}
+#s3,#s4,#s5,#s6,#s7{
+    padding-bottom:60px ;
+    margin-right: 75px;
+}
+h4{
+    padding: 15px 0px;
+}
+.cards-ser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.cards-ser h4{
+    font-size: 20px;
+}
+
+.cards-ser h4,.cards-ser p{
+    margin-left: 20px ;
+}
+
+.opaci2{
+    height: 170px;
+    width: 300px;
+    position: relative;
+
+}
+.im2{
+    height: 170px;
+    width: 300px; 
+    background-color:#f1f1f1;
+    opacity: 0.6;
+    position: absolute;
+    top:0px;
+    z-index: 5;
+}
+.cr1,.cr2,.cr3{
+    background-color: #f1f1f1;
+}
+
+.table{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    align-items: center;
+}
+
+table{
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+ }
+
+ .basic{
+    padding: 30px 195px;
+    background-color: gray;
+    font-size: 20px;
+    color: white;
+}
+.pro{
+    padding: 30px 195px;
+    background-color:  #f44336;
+    font-size: 20px;
+    color: white;
+}
+
+table tr td{
+    padding: 20px 125px;
+    font-size: 18px;
+    border-bottom: 1px rgb(190, 188, 188) solid;
+}
+
+.table button{
+    padding: 10px 12px;
+    font-size: 18px;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.table button:hover{
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+}
+.btn1{
+    background-color: gainsboro;  
+}
+.btn2{
+    background-color:  #f44336;}
+
+
+form{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+input{
+    padding: 12px 0px;
+    border:1px solid #cccaca
+}
+
+form button{
+    padding: 14px 0px;
+    border: none;
+    background-color: #f44336;
+    font-size: 16px;
+    color: white;
+}
+
+form button:hover{
+    background-color: #b1b1b1;
+    cursor: pointer;
+    color: #000000;
+}
+
+footer{
+    background-color: #f1f1f1;
+    padding:40px 0px;
+    display: flex;
+    justify-content: right;
+}
+footer p{
+    margin-right: 60px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer p a{
+    color: #000000;
+}
+footer p a:hover{
+    color: #b1b1b1;
+}
+
+
